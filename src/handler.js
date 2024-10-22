@@ -60,7 +60,11 @@ async function ssr(ctx) {
 
 			return ctx.request.ip;
 		},
-		platform: ctx,
+		platform: {
+			info: "Deno",
+			context: ctx,
+			request: ctx.request,
+		},
 	});
 	ctx.response.status = response.status;
 	ctx.response.headers = response.headers;
