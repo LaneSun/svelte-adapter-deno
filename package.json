@@ -1,6 +1,6 @@
 {
 	"name": "svelte-adapter-deno-native",
-	"version": "0.9.2",
+	"version": "0.9.3",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/LaneSun/svelte-adapter-deno"
@@ -31,9 +31,9 @@
 		"prepublishOnly": "pnpm build"
 	},
 	"devDependencies": {
-		"@sveltejs/kit": "^1.3.3",
+		"@sveltejs/kit": "^2.0.0",
 		"prettier": "^2.8.3",
-		"typescript": "^4.9.4"
+		"typescript": "^5.0.0"
 	},
 	"dependencies": {
 		"@rollup/plugin-commonjs": "^24.0.1",
@@ -43,7 +43,7 @@
 		"rollup": "^3.12.0"
 	},
 	"peerDependencies": {
-		"@sveltejs/kit": "^2.4.0"
+		"@sveltejs/kit": "^2.0.0"
 	},
 	"packageManager": "pnpm@9.7.0+sha256.b35018fbfa8f583668b2649e407922a721355cd81f61beeb4ac1d4258e585559"
 }
